@@ -9,5 +9,6 @@ export const ButtonNav = styled(Button)<ButtonNavProps>(({ theme, selected }) =>
   return {
     borderBottom: selected ? `2px solid ${theme.palette.text.primary}` : '',
     borderRadius: 0,
+    color: theme.palette.text.primary,
   };
 });
