@@ -5,7 +5,13 @@
     },
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx",
+          ".json"
+        ]
       }
     }
   },
@@ -31,9 +37,14 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "plugins": ["react", "import", "@typescript-eslint"],
+  "plugins": [
+    "react",
+    "import",
+    "@typescript-eslint"
+  ],
   "rules": {
     "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "prettier/prettier": [

@@ -4,7 +4,7 @@ const Container = styled('div')(() => ({
   paddingTop: 30,
   width: '80%',
   margin: '0 auto',
-  maxWidth: '1200px',
+  maxWidth: '1000px',
 }));
 
 export default Container;

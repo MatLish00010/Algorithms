@@ -13,14 +13,15 @@ const theme = createTheme({
     },
     secondary: {
       main: '#19857b',
-      light: '#efd81d',
+      light: '#ffffff',
+      dark: '#0f0d0e',
     },
     error: {
       main: red.A400,
     },
     text: {
       primary: '#f9f4da',
-      secondary: '#000000',
+      secondary: '#ffffff',
     },
     background: {
       paper: '#383838',
