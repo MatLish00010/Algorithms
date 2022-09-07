@@ -1,4 +1,4 @@
-import { Button, Stack } from '@mui/material';
+import { Stack } from '@mui/material';
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
@@ -15,7 +15,6 @@ const Navigation = () => {
         <S.ButtonNav
           variant="text"
           selected={pathname === item.path}
-          sx={{ color: 'white' }}
           key={item.label}
           onClick={() => navigate(item.path)}
         >

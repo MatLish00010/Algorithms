@@ -7,10 +7,6 @@ export const navigationItems: NavItem[] = [
   },
   {
     label: 'Binary search',
-    path: '/second',
-  },
-  {
-    label: 'Third',
-    path: '/third',
+    path: '/binarySearch',
   },
 ];

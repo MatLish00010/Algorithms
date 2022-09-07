@@ -1,12 +1,15 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
+import Home from 'pages/Home';
+import BinarySearch from 'pages/BinarySearch';
+
 const Routers = () => {
   return (
     <Routes>
-      <Route path="/" element={<h1>First</h1>} />
-      <Route path="/second" element={<h1>Second</h1>} />
-      <Route path="/third" element={<h1>Third</h1>} />
+      <Route path="/" element={<Home />} />
+      <Route path="/binarySearch" element={<BinarySearch />} />
+      <Route path="*" element={'ERROR'} />
     </Routes>
   );
 };
